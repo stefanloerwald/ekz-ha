@@ -4,6 +4,8 @@ This project is a custom integration for [Home Assistant](https://www.home-assis
 
 The project uses large parts of [exzexport](https://github.com/mensi/ekzexport), and benefitted from the code in [homeassistant-statistics](https://github.com/klausj1/homeassistant-statistics) to import into Home Assistant.
 
+:warning: This repo is archived and no longer maintained, as there is a superior verion at https://github.com/dmoo500/ekz-ha.
+
 ## Installing
 
 The project is in an early stage, where the API is triggered for the entire date range of active installations (i.e. where there is no move-out date). This causes more API calls to EKZ than desirable. As a consequence, it is not yet published on [HACS](https://hacs.xyz), but it can be installed through HACS by adding this repo as a [custom repository](https://www.hacs.xyz/docs/faq/custom_repositories/). Usage is entirely at own risk.
